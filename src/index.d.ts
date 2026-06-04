@@ -255,6 +255,23 @@ declare namespace CentralServicesShared {
       TP_SERVICES_GET: string;
       TP_SERVICES_PUT: string;
       TP_SERVICES_PUT_ERROR: string;
+      TPP_ACCOUNTS_REQUEST_POST: string,
+      TPP_ACCOUNTS_REQUEST_PUT: string,
+      TPP_ACCOUNTS_REQUEST_PUT_ERROR: string,
+      TPP_ACCOUNTS_REQUEST_GET: string,
+      TPP_ACCOUNTS_GET: string,
+      TPP_ACCOUNTS_PUT: string,
+      TPP_ACCOUNTS_PUT_ERROR: string,
+      TPP_CONSENT_REQUEST_POST: string,
+      TPP_CONSENT_REQUEST_GET: string,
+      TPP_CONSENT_REQUEST_PUT: string,
+      TPP_CONSENT_REQUEST_PATCH: string,
+      TPP_CONSENT_REQUEST_PUT_ERROR: string,
+      TPP_CONSENTS_POST: string,
+      TPP_CONSENTS_GET: string,
+      TPP_CONSENTS_PUT: string,
+      TPP_CONSENTS_PUT_ERROR: string,
+      TPP_CONSENTS_DELETE: string
     };
   }
 
