@@ -5,9 +5,19 @@
   "moderate": true,
   "allowlist": [ // NOTE: Please add as much information as possible to any items added to the allowList
     /** 
-      [05-16-2026] - No fix available for this vulnerability
+      [05-16-2026][Critical][sanitize-html@2.12.1] No available fix.
       Apostrophe has default XSS via `xmp` raw-text passthrough in `sanitize-html`
     **/
-    "GHSA-rpr9-rxv7-x643"
+    "GHSA-rpr9-rxv7-x643",
+    /** 
+      [06-04-2026][Moderate][protobufjs@8.0.3] No available fix.  Not direct dependency. Dependency of @mojaloop/event-sdk@14.8.4.
+      Denial of Service via unbounded recursive JSON descriptor expansion
+    **/
+    "GHSA-jggg-4jg4-v7c6",
+    /** 
+      [06-04-2026][Moderate][uuid@8.3.2]  No fix available for this vulnerability. Not direct dependency. Dependency of nyc@18.0.0
+      Missing buffer bounds check in v3/v5/v6 when buf is provided
+    **/
+    "GHSA-w5hq-g745-h8pq"
   ]
 }
